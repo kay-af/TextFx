@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "DocFx Build",
+      "type": "shell",
+      "command": "rm -rf _site api && docfx metadata docfx.json && docfx build",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Documentation"
+      }
+    },
+    {
+      "label": "DocFx Serve",
+      "type": "shell",
+      "command": "docfx serve _site --port 3000",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Documentation"
+      }
+    },
+    {
+      "label": "DocFx Build + Serve",
+      "dependsOrder": "sequence",
+      "dependsOn": ["DocFx Build", "DocFx Serve"],
+      "problemMatcher": []
+    }
+  ]
+}

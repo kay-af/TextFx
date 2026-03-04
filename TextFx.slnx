@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="TextFx.csproj" />
+  <Project Path="TextFx.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>

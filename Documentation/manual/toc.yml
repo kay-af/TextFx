@@ -1,0 +1,24 @@
+- name: Getting started
+  items:
+    - name: Overview
+      href: getting-started/overview.md
+    - name: Installation
+      href: getting-started/installation.md
+    - name: Usage
+      href: getting-started/usage.md
+- name: Concepts
+  items:
+    - name: TextFx Controller
+      href: concepts/textfx-controller.md
+    - name: Modifier Groups
+      href: concepts/modifier-groups.md
+    - name: Modifiers
+      href: concepts/modifiers.md
+    - name: Masks
+      href: concepts/masks.md
+    - name: Plateau Curve
+      href: concepts/plateau-curve.md
+- name: Technical Details
+  href: technical-details.md
+- name: Limitations
+  href: limitations.md

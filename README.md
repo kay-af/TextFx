@@ -20,7 +20,7 @@ To include **TextFx** in your game via **OpenUPM**, follow these steps:
 
 1. Setup your project to work with the **OpenUPM CLI**. Follow the docs [OpenUPM Docs](https://openupm.com/docs).
 
-1. To add the latest version of **TextFx** using the **OpenUPM CLI**, execute the command: `openupm add com.freedee.text-fx` in the root directory of your game.
+1. To add the latest version of **TextFx** using the **OpenUPM CLI**, execute the command: `openupm add me.freedee.text-fx` in the root directory of your game.
 
 1. Open your game window in Unity. **TextFx** will be available to use in your project.
 
@@ -44,7 +44,7 @@ To install **TextFx** manually, follow these steps:
 
 1. Extract the downloaded archive.
 
-1. Copy the `com.freedee.text-fx` folder into the `Packages` folder of your Unity project.
+1. Copy the `me.freedee.text-fx` folder into the `Packages` folder of your Unity project.
 
 1. Open your project in Unity. **TextFx** will be available to use in your project.
 

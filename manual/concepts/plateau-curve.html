@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Plateau Curve </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Plateau Curve ">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/kay-af/TextFx/blob/main/Documentation/manual/concepts/plateau-curve.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="TextFx">
+            TextFx
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="plateau-curve">Plateau Curve</h1>
+
+<p>Plateau curve defines how effect strength varies across a modifier group's range. It controls the transition from no effect to full effect and back (shaped like a plateau), allowing for smooth fade-in and fade-out zones within the group's effect window.</p>
+<h2 id="properties">Properties</h2>
+<p>The following section provides a description of each property associated with plateau curves.</p>
+<h3 id="rise">Rise</h3>
+<p>Defines the point where the curve reaches maximum strength as a fractional position from 0 to 1 based on the size of the effect window. This determines how quickly the effect transitions from zero to full strength at the beginning of the range.</p>
+<h3 id="fall">Fall</h3>
+<p>Defines the point where the curve starts falling from maximum strength as a fractional position from 0 to 1 based on the size of the effect window. This determines where the effect begins transitioning from full strength back to zero at the end of the range.</p>
+<h3 id="separate-profiles">Separate profiles</h3>
+<p>Enables the use of separate animation curves for rising and falling transitions. When disabled, a single curve profile is used for both transitions.</p>
+<h3 id="rising-profile">Rising profile</h3>
+<p>The animation curve used for the rise transition when Separate Profiles is enabled. This curve controls the shape of the transition from zero to full effect strength.</p>
+<h3 id="falling-profile">Falling profile</h3>
+<p>The animation curve used for the fall transition when Separate Profiles is enabled. This curve controls the shape of the transition from full effect strength back to zero. Note that the <code>x</code> value used to evaluate the curve goes from <code>x = 1</code> to <code>x = 0</code> (Right to Left) for falling profiles. This is done intentionally to have a similar behaviour when using a single profile to control both rise and fall.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Even though the rising and falling profiles must adhere to <code>y = 0 when x = 0</code> and <code>y = 1 when x = 1</code> for a rising and falling transition for the effect range, it is not a hard rule and the warning can be ignored to achieve certain effects.</p>
+</div>
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          TextFx - Freedee
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

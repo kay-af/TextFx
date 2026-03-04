@@ -1,0 +1,454 @@
+{
+  "source_base_path": "C:/Users/afridi/OneDrive/Documents/Projects/Unity/TextFx/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.BaseModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.BaseModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.BaseModifier",
+      "Summary": "<p sourcefile=\"api/TextFx.BaseModifier.yml\" sourcestartlinenumber=\"1\">The base class of all modifiers responsible for applying an effect on a character.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.ColorModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.ColorModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.ColorModifier",
+      "Summary": "<p sourcefile=\"api/TextFx.ColorModifier.yml\" sourcestartlinenumber=\"1\">Controls the color of characters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Editor.MaskDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Editor.MaskDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Editor.MaskDrawer",
+      "Summary": "<p sourcefile=\"api/TextFx.Editor.MaskDrawer.yml\" sourcestartlinenumber=\"1\">The custom property drawer for the Mask class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Editor.ModifierDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Editor.ModifierDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Editor.ModifierDrawer",
+      "Summary": "<p sourcefile=\"api/TextFx.Editor.ModifierDrawer.yml\" sourcestartlinenumber=\"1\">The custom property drawer for the BaseModifier class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Editor.ModifierGroupDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Editor.ModifierGroupDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Editor.ModifierGroupDrawer",
+      "Summary": "<p sourcefile=\"api/TextFx.Editor.ModifierGroupDrawer.yml\" sourcestartlinenumber=\"1\">The custom property drawer for the ModifierGroup class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Editor.PlateauCurveDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Editor.PlateauCurveDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Editor.PlateauCurveDrawer",
+      "Summary": "<p sourcefile=\"api/TextFx.Editor.PlateauCurveDrawer.yml\" sourcestartlinenumber=\"1\">The custom property drawer for the PlateauCurve class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Editor.TextFxControllerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Editor.TextFxControllerEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Editor.TextFxControllerEditor",
+      "Summary": "<p sourcefile=\"api/TextFx.Editor.TextFxControllerEditor.yml\" sourcestartlinenumber=\"1\">The custom editor scripts for the TextFx controllers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.Mask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.Mask.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.Mask",
+      "Summary": "<p sourcefile=\"api/TextFx.Mask.yml\" sourcestartlinenumber=\"1\">A simple fractional mask that defines a range within the [0-1] space.</p>\n<p>\nUsed to determine which characters should be affected by a group based on their\nposition within the text. Values are fractional [0-1] and does not depend on the actual width.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.ModificationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.ModificationContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.ModificationContext",
+      "Summary": "<p sourcefile=\"api/TextFx.ModificationContext.yml\" sourcestartlinenumber=\"1\">Context used internally to compute and pass modified character information\nacross all groups and their modifiers sequentially.\nEach modifier applies its properties to this context, which accumulates\nthe final transformation, color, and opacity for each character.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.ModifierGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.ModifierGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.ModifierGroup",
+      "Summary": "<p sourcefile=\"api/TextFx.ModifierGroup.yml\" sourcestartlinenumber=\"1\">A group encapsulating characters and provides an interface to control various modifiers\nand settings related to the characters in the group.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.OpacityModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.OpacityModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.OpacityModifier",
+      "Summary": "<p sourcefile=\"api/TextFx.OpacityModifier.yml\" sourcestartlinenumber=\"1\">Controls the opacity of characters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.PlateauCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.PlateauCurve.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.PlateauCurve",
+      "Summary": "<p sourcefile=\"api/TextFx.PlateauCurve.yml\" sourcestartlinenumber=\"1\">A special type of curve that starts rising from 0 to 1 following a profile (Rising profile),\nis 1 for a certain range, and then falls back to 0 following another profile (Falling profile).</p>\n<p>\nThe values used are fractional i.e, 0 is considered the starting point and 1, the ending point no matter\nthe actual width of the range it is applied to.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.PositionModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.PositionModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.PositionModifier",
+      "Summary": "<p sourcefile=\"api/TextFx.PositionModifier.yml\" sourcestartlinenumber=\"1\">Controls the local translation of characters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.RotationModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.RotationModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.RotationModifier",
+      "Summary": "<p sourcefile=\"api/TextFx.RotationModifier.yml\" sourcestartlinenumber=\"1\">Controls the local rotation of characters around the configured pivot.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.ScaleModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.ScaleModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.ScaleModifier",
+      "Summary": "<p sourcefile=\"api/TextFx.ScaleModifier.yml\" sourcestartlinenumber=\"1\">Controls the local scale of characters around the configured pivot.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.TextFxController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.TextFxController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.TextFxController",
+      "Summary": "<p sourcefile=\"api/TextFx.TextFxController.yml\" sourcestartlinenumber=\"1\">The main TextFx controller provides an interface to create text effects using modifier groups and exposes controls to drive animations.</p>\n<p>\nThis controller provides functionalities that support any <xref href=\"TMPro.TMP_Text\" data-throw-if-not-resolved=\"false\"></xref> implementations.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.TextFxUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.TextFxUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx.TextFxUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TextFx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TextFx.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TextFx",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "assets/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/preview.webm",
+      "output": {
+        "resource": {
+          "relative_path": "assets/preview.webm"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/masks.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/masks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/modifier-groups.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/modifier-groups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/modifiers.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/modifiers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/plateau-curve.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/plateau-curve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/textfx-controller.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/textfx-controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started/overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started/usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started/usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/limitations.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/limitations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/technical-details.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/technical-details.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

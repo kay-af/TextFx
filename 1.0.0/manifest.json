@@ -1,0 +1,185 @@
+{
+  "source_base_path": "/home/runner/work/TextFx/TextFx/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/hero.webm",
+      "output": {
+        "resource": {
+          "relative_path": "assets/hero.webm"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/masks.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/masks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/modifier-groups.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/modifier-groups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/modifiers.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/modifiers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/plateau-curve.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/plateau-curve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/concepts/textfx-controller.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/concepts/textfx-controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started/overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started/usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started/usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/limitations.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/limitations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/technical-details.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/technical-details.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

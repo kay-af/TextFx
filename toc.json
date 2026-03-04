@@ -1,2 +1,2 @@
 
-{"items":[{"name":"Manual","href":"manual/getting-started/overview.html","tocHref":"manual/toc.html","topicHref":"manual/getting-started/overview.html"},{"name":"API Reference","href":"api/TextFx.html","tocHref":"api/toc.html","topicHref":"api/TextFx.html","topicUid":"TextFx"}],"pdf":false}
+{"items":[{"name":"Manual","href":"manual/getting-started/overview.html","tocHref":"manual/toc.html","topicHref":"manual/getting-started/overview.html"},{"name":"API Reference","href":"api/TextFx.html","tocHref":"api/toc.html","topicHref":"api/TextFx.html","topicUid":"TextFx"},{"name":"Changelog","href":"CHANGELOG.html","topicHref":"CHANGELOG.html"},{"name":"License","href":"LICENSE.html","topicHref":"LICENSE.html"}],"pdf":false}

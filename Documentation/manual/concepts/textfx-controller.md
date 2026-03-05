@@ -33,4 +33,4 @@ Adds a global offset to all the local offsets of the modifier groups. Offset con
 
 ### Modifier Groups
 
-The list of modifier groups that provide several modifiers and settings to control the range of characters affected. Modifier groups are additive i.e., the effects sum up for overlapping groups. Check [Modifier Groups](/manual/modifier-groups.html) for more information.
+The list of modifier groups that provide several modifiers and settings to control the range of characters affected. Modifier groups are additive i.e., the effects sum up for overlapping groups. Check [Modifier Groups](/manual/concepts/modifier-groups.html) for more information.

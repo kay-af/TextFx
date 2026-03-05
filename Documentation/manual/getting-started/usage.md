@@ -20,7 +20,7 @@ Experiment by changing the **offset** of the group to observe how the characters
 
 Next, enable the **Rotation modifier** and set **z = 30**. Notice how characters within the group’s range are rotated.
 
-Play around with different settings and modifiers to see how the text responds. Check the [Concepts](/manual/controller.html) section for a detailed explanation of all the available settings.
+Play around with different settings and modifiers to see how the text responds. Check the [Concepts](/manual/concepts/textfx-controller.html) section for a detailed explanation of all the available settings.
 
 ## Animating
 

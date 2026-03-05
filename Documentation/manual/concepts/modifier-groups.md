@@ -12,7 +12,7 @@ Controls the overall intensity of all effects in the group. The value is in rang
 
 ### Offset
 
-Offset controls the starting point of the effect range. The effect range defines how strength is applied on each character. Paired with the [curve](/manual/modifier-groups.html#curve) property, you can define how the effects transition when sliding the range.
+Offset controls the starting point of the effect range. The effect range defines how strength is applied on each character. Paired with the [curve](#curve) property, you can define how the effects transition when sliding the range.
 
 ### Extent
 
@@ -27,16 +27,16 @@ Shifts the transformation pivot for rotation and scaling effects for a group. Th
 
 ### Curve
 
-Defines how effect strength varies across the group's effect range using a [plateau curve](/manual/plateau-curve.html). The curve controls the transition from no effect to full effect and back, allowing for smooth fade-in and fade-out zones.
+Defines how effect strength varies across the group's effect range using a [plateau curve](/manual/concepts/plateau-curve.html). The curve controls the transition from no effect to full effect and back, allowing for smooth fade-in and fade-out zones.
 
-Check [plateau curve](/manual/plateau-curve.html) for an extensive overview.
+Check [plateau curve](/manual/concepts/plateau-curve.html) for an extensive overview.
 
 ### Mask
 
 The mask defines a range that limits which characters are affected. The value is fractional and is in range [0,1].
 
-Check [Masks](/manual/masks.html) for an extensive overview.
+Check [Masks](/manual/concepts/masks.html) for an extensive overview.
 
 ### Modifiers
 
-The list of modifiers provides various transformation and visual effects that can be applied to characters within the group's range. Each modifier group contains built-in modifiers that are applied in a specific order for predictable results. See [Modifiers](/manual/modifiers.html) for more information.
+The list of modifiers provides various transformation and visual effects that can be applied to characters within the group's range. Each modifier group contains built-in modifiers that are applied in a specific order for predictable results. See [Modifiers](/manual/concepts/modifiers.html) for more information.

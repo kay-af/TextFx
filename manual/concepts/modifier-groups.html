@@ -93,7 +93,7 @@
 <h3 id="strength">Strength</h3>
 <p>Controls the overall intensity of all effects in the group. The value is in range [0,1].</p>
 <h3 id="offset">Offset</h3>
-<p>Offset controls the starting point of the effect range. The effect range defines how strength is applied on each character. Paired with the <a href="/manual/modifier-groups.html#curve">curve</a> property, you can define how the effects transition when sliding the range.</p>
+<p>Offset controls the starting point of the effect range. The effect range defines how strength is applied on each character. Paired with the <a href="#curve">curve</a> property, you can define how the effects transition when sliding the range.</p>
 <h3 id="extent">Extent</h3>
 <p>Defines how much of the text the group affects as a fractional width. The effect range spans from <strong>Offset</strong> to <strong>Offset + Extent</strong>.</p>
 <h3 id="pivot">Pivot</h3>
@@ -103,13 +103,13 @@
 <p>When a group is selected, the character bounds and the pivot positions are drawn in the scene view.</p>
 </div>
 <h3 id="curve">Curve</h3>
-<p>Defines how effect strength varies across the group's effect range using a <a href="/manual/plateau-curve.html">plateau curve</a>. The curve controls the transition from no effect to full effect and back, allowing for smooth fade-in and fade-out zones.</p>
-<p>Check <a href="/manual/plateau-curve.html">plateau curve</a> for an extensive overview.</p>
+<p>Defines how effect strength varies across the group's effect range using a <a href="/manual/concepts/plateau-curve.html">plateau curve</a>. The curve controls the transition from no effect to full effect and back, allowing for smooth fade-in and fade-out zones.</p>
+<p>Check <a href="/manual/concepts/plateau-curve.html">plateau curve</a> for an extensive overview.</p>
 <h3 id="mask">Mask</h3>
 <p>The mask defines a range that limits which characters are affected. The value is fractional and is in range [0,1].</p>
-<p>Check <a href="/manual/masks.html">Masks</a> for an extensive overview.</p>
+<p>Check <a href="/manual/concepts/masks.html">Masks</a> for an extensive overview.</p>
 <h3 id="modifiers">Modifiers</h3>
-<p>The list of modifiers provides various transformation and visual effects that can be applied to characters within the group's range. Each modifier group contains built-in modifiers that are applied in a specific order for predictable results. See <a href="/manual/modifiers.html">Modifiers</a> for more information.</p>
+<p>The list of modifiers provides various transformation and visual effects that can be applied to characters within the group's range. Each modifier group contains built-in modifiers that are applied in a specific order for predictable results. See <a href="/manual/concepts/modifiers.html">Modifiers</a> for more information.</p>
 
 </article>
 

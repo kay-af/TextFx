@@ -32,7 +32,7 @@ To include **TextFx** in your game via **Git URL**, follow these steps:
 
 1. Click the **+** button in the top-left corner and select **Add package from git URL...**.
 
-1. Enter the following URL, replacing `v1.0.0` with your desired version: `https://github.com/kay-af/TextFx.git#v1.0.0-git`.
+1. Enter the following URL, replacing `v1.0.1` with your desired version: `https://github.com/kay-af/TextFx.git#v1.0.1-git`.
 
 1. Click **Add** and wait for Unity to download and install the package.
 

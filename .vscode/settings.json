@@ -70,6 +70,7 @@
         "source.organizeImports": "explicit"
     },
     "dotnet.defaultSolution": "TextFx.slnx",
+    "editor.formatOnSave": true,
     "[markdown]": {
         "editor.formatOnSave": false
     }

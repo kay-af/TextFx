@@ -1,47 +1,48 @@
 using System.Collections;
 
-using TextFx;
-
 using UnityEngine;
 
-[RequireComponent(typeof(TextFxController))]
-public class TextFxWave : MonoBehaviour
+namespace TextFx.Samples
 {
-    [SerializeField]
-    [Min(0f)]
-    [Tooltip("Time to wait before starting / looping the animation.")]
-    private float _delay = 1f;
-
-    [SerializeField]
-    [Min(0.01f)]
-    [Tooltip("Time taken to complete the animation.")]
-    private float _time = 1f;
-
-    private TextFxController _controller;
-
-    private void Awake() => _controller = GetComponent<TextFxController>();
-
-    private IEnumerator Start()
+    [RequireComponent(typeof(TextFxController))]
+    public class TextFxWave : MonoBehaviour
     {
-        _controller.enabled = true;
+        [SerializeField]
+        [Min(0f)]
+        [Tooltip("Time to wait before starting / looping the animation.")]
+        private float _delay = 1f;
 
-        var waitForDelaySeconds = new WaitForSeconds(_delay);
+        [SerializeField]
+        [Min(0.01f)]
+        [Tooltip("Time taken to complete the animation.")]
+        private float _time = 1f;
 
-        while (true)
+        private TextFxController _controller;
+
+        private void Awake() => _controller = GetComponent<TextFxController>();
+
+        private IEnumerator Start()
         {
-            yield return waitForDelaySeconds;
+            _controller.enabled = true;
 
-            float elapsed = 0f;
-            while (elapsed < _time)
+            var waitForDelaySeconds = new WaitForSeconds(_delay);
+
+            while (true)
             {
-                var t = elapsed / _time;
+                yield return waitForDelaySeconds;
 
-                _controller.Offset = Mathf.Lerp(-1f, 1f, t);
-                _controller.UpdateMesh();
+                float elapsed = 0f;
+                while (elapsed < _time)
+                {
+                    var t = elapsed / _time;
 
-                elapsed += Time.deltaTime;
+                    _controller.Offset = Mathf.Lerp(-1f, 1f, t);
+                    _controller.UpdateMesh();
 
-                yield return null;
+                    elapsed += Time.deltaTime;
+
+                    yield return null;
+                }
             }
         }
     }

@@ -1,0 +1,33 @@
+{
+  "name": "me.freedee.text-fx",
+  "version": "1.0.2",
+  "displayName": "TextFx",
+  "description": "A TextMeshPro text animation system that enables character-level control.",
+  "unity": "2019.2",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": [
+    "text",
+    "animation",
+    "textmeshpro",
+    "textfx",
+    "texteffects",
+    "charactereffects"
+  ],
+  "author": {
+    "name": "Afridi Kayal",
+    "email": "kayalafridi@gmail.com"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Wave",
+      "description": "A sample demonstrating how to animate a text with a simple wave effect.",
+      "path": "Samples~/Wave"
+    }
+  ],
+  "changelogUrl": "https://text-fx.freedee.me/CHANGELOG.html",
+  "licensesUrl": "https://text-fx.freedee.me/LICENSE.html",
+  "documentationUrl": "https://text-fx.freedee.me"
+}
